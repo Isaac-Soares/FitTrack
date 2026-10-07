@@ -14,9 +14,8 @@ Muitos praticantes de exercício físico enfrentam dificuldades para manter um r
 
 ## 👥 Integrantes do Grupo
 * Isaac Faria Soares
-* [Nome do Integrante 2]
-* [Nome do Integrante 3]
-* [Nome do Integrante 4]
+* Thiago Moura 
+* Tales Pessoa
 
 ## 💻 Tecnologias Empregadas
 * **Linguagem:** Python
