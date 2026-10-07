@@ -29,6 +29,7 @@
   1. O utilizador acede à página de listagem de treinos.
   2. O utilizador aplica filtros por grupo muscular, dia da semana ou duração.
   3. O sistema processa a busca e exibe os resultados filtrados de forma compreensível.
+* **Fluxo Alternativo / Exceção:** Se não existirem treinos que correspondam aos filtros aplicados, o sistema exibe a mensagem "Nenhum treino encontrado para estes critérios."
 
 ### UC03 - Consultar Rotina via API REST
 * **Atores:** Personal Trainer (Sistema Externo / Terceiro).
@@ -38,3 +39,4 @@
   1. O cliente externo envia um pedido HTTP `GET` para o endpoint da API própria do FitTrack (ex: `/api/v1/alunos/{id}/treinos/`).
   2. O sistema valida o acesso e os parâmetros.
   3. O sistema retorna os dados em formato JSON com o código de status HTTP adequado (200 OK).
+* **Fluxo Alternativo / Exceção:** Se o ID do aluno não existir ou o *personal trainer* fornecer credenciais inválidas, a API retorna um erro HTTP 404 (Not Found) ou 401 (Unauthorized).
